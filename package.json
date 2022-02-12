@@ -1,0 +1,24 @@
+{
+  "name": "muricy",
+  "version": "1.0.0",
+  "description": "Site da clinica Muricy",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [],
+  "author": "Nami",
+  "license": "ISC",
+  "dependencies": {
+    "cwebp-bin": "^5.1.0",
+    "imagemin": "^7.0.1",
+    "imagemin-webp": "^5.1.0",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "prettier": "^1.19.1"
+  },
+  "repository": "git@github.com:NamiSites/muricy.git"
+}
